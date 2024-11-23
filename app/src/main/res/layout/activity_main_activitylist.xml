@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitylist">
+
+
+    <!-- Title -->
+
+
+    <!-- Description -->
+
+
+    <!-- Horizontal line -->
+
+
+    <!-- Please select atleast 1 allergy -->
+
+
+    <!-- Pick your allergies -->
+
+
+    <!-- Multiselectable drop down -->
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/app_name" />
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="56dp"
+        android:text="@string/app_description"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/pick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_description"
+        app:layout_constraintVertical_bias="0.367" />
+
+    <TextView
+        android:id="@+id/atleast1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/atleast1"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/pick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <TextView
+        android:id="@+id/pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginBottom="236dp"
+        android:text="@string/pick"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@+id/btnNextScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.androidbuts.multispinnerfilter.MultiSpinnerSearch
+        android:id="@+id/multipleItemSelectionSpinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+
+        android:textColor="@color/white"
+        app:hintText="Multi Item Selection"
+        app:layout_constraintBottom_toTopOf="@+id/btnNextScreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pick"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <Button
+        android:id="@+id/btnNextScreen"
+        android:layout_width="235dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="72dp"
+        android:text="@string/app_name"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

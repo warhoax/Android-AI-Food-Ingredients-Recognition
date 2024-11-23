@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">Food Allergies Identification NUML</string>
+    <string name="choose_image">Choose an image</string>
+    <string name="upload">Upload your Image</string>
+    <string name="error">Error</string>
+    <string name="permission_denied">Storage permission denied.</string>
+    <string name="settings">Settings</string>
+
+
+    <string name="app_spaced_name">FOOD ALLERGIES</string>
+    <string name="app_description">It will tell u what you are allergic to from the food image</string>
+
+    <!-- Headings -->
+    <string name="pick">Select your allergies</string>
+    <string name="here">Here are your allergies</string>
+    <string name="add">Add a picture</string>
+    <string name="results">Results</string>
+
+
+    <!-- Buttons -->
+    <string name="snap">Snap your food</string>
+    <string name="amiallergic">Am I allergic?</string>
+    <string name="resnap">Resnap</string>
+    <string name="edit">Edit Allergies</string>
+    <string name="uplodad">Upload</string>
+
+    <string name="next">Next</string>
+    <string name="title_home">Home</string>
+    <string name="made">Made with</string>
+
+    <!-- Error Messages -->
+    <string name="atleast1">Please select atleast 1 allergy</string>
+    <string name="noimage">No image selected</string>
+
+
+    <string name="type_to_search">Type to Search</string>
+
+    <string-array name="food_array">
+
+
+        <item>acorn squash</item>
+        <item>ahipa</item>
+        <item>alcohol</item>
+        <item>ale</item>
+        <item>alfalfa sprouts</item>
+        <item>aliment</item>
+        <item>allspice</item>
+        <item>almond</item>
+        <item>amaranth</item>
+        <item>anchovy</item>
+        <item>angel-hair pasta</item>
+        <item>anise</item>
+        <item>antipasto</item>
+        <item>aonori</item>
+        <item>aperitif</item>
+        <item>apple</item>
+        <item>apple pie</item>
+        <item>apple sauce</item>
+        <item>apricot pits</item>
+        <item>arracacha</item>
+        <item>artichoke</item>
+        <item>arugula</item>
+        <item>asparagus</item>
+        <item>aspic</item>
+        <item>aubergine</item>
+        <item>avocado</item>
+        <item>azuki bean</item>
+        <item>baby back ribs</item>
+        <item>bacon</item>
+        <item>bagel</item>
+        <item>baguette</item>
+        <item>baked alaska</item>
+        <item>baked beans</item>
+        <item>baklava</item>
+        <item>balsamic</item>
+        <item>bamboo shoots</item>
+        <item>banana</item>
+        <item>barbecue</item>
+        <item>barbecue sauce</item>
+        <item>barley</item>
+        <item>basil</item>
+        <item>bass</item>
+        <item>batter</item>
+        <item>bay leaf</item>
+        <item>beancurd</item>
+        <item>beans</item>
+        <item>bechamel</item>
+        <item>beef</item>
+        <item>beef carpaccio</item>
+        <item>beef steak</item>
+        <item>beef tartare</item>
+        <item>beer</item>
+        <item>beet</item>
+        <item>beet root</item>
+        <item>beet salad</item>
+        <item>beignets</item>
+        <item>bell pepper</item>
+        <item>berry</item>
+        <item>beverage</item>
+        <item>bibimbap</item>
+        <item>bilberry</item>
+        <item>bird</item>
+        <item>birthday cake</item>
+        <item>biscuits</item>
+        <item>bitter gourd</item>
+        <item>bitter melon</item>
+        <item>black beans</item>
+        <item>black coffee</item>
+        <item>black currant</item>
+        <item>black tea</item>
+        <item>blackberry</item>
+        <item>blancmange</item>
+        <item>blood orange</item>
+        <item>blood sausage</item>
+        <item>blue cheese</item>
+        <item>blueberry</item>
+        <item>blueberry muffin</item>
+        <item>blueberry pie</item>
+        <item>bok choy</item>
+        <item>bonbon</item>
+        <item>bonbons</item>
+        <item>booze</item>
+        <item>borage</item>
+        <item>boysenberry</item>
+        <item>bran</item>
+        <item>brandy</item>
+        <item>bratwurst</item>
+        <item>bread</item>
+        <item>bread pudding</item>
+        <item>bread rolls</item>
+        <item>breadcrumb</item>
+        <item>breadfruit</item>
+        <item>breadstick</item>
+        <item>bream</item>
+        <item>brie</item>
+        <item>brinjal</item>
+        <item>brioche</item>
+        <item>brisket</item>
+        <item>brittle</item>
+        <item>broad beans</item>
+        <item>broccoli</item>
+        <item>broccolini</item>
+        <item>broil</item>
+        <item>broth</item>
+        <item>brown bread</item>
+        <item>brown rice</item>
+        <item>brownie</item>
+        <item>brulee</item>
+        <item>bruschetta</item>
+        <item>brussels sprout</item>
+        <item>buckwheat</item>
+        <item>bun</item>
+        <item>burdock</item>
+        <item>burrito</item>
+        <item>butter</item>
+        <item>buttercream</item>
+        <item>cabbage</item>
+        <item>caesar salad</item>
+        <item>cake</item>
+        <item>cake mix</item>
+        <item>cake pop</item>
+        <item>calamari</item>
+        <item>camembert</item>
+        <item>canape</item>
+        <item>candy</item>
+        <item>candy apple</item>
+        <item>candy bar</item>
+        <item>cannoli</item>
+        <item>cantaloupe</item>
+        <item>caper</item>
+        <item>cappuccino</item>
+        <item>caprese salad</item>
+        <item>caramel</item>
+        <item>caramel apple</item>
+        <item>caraway</item>
+        <item>carbohydrate</item>
+        <item>cardamom</item>
+        <item>cardoon</item>
+        <item>carp</item>
+        <item>carpaccio</item>
+        <item>carrot</item>
+        <item>carrot cake</item>
+        <item>cashew</item>
+        <item>cassava</item>
+        <item>casserole</item>
+        <item>cauliflower</item>
+        <item>caviar</item>
+        <item>cayenne</item>
+        <item>cayenne pepper</item>
+        <item>celeriac</item>
+        <item>celery</item>
+        <item>celtuce</item>
+        <item>cereal</item>
+        <item>cereal bar</item>
+        <item>ceviche</item>
+        <item>champagne</item>
+        <item>chard</item>
+        <item>chaya</item>
+        <item>chayote</item>
+        <item>cheddar</item>
+        <item>cheese</item>
+        <item>cheeseburger</item>
+        <item>cheesecake</item>
+        <item>cherimoya</item>
+        <item>cherry</item>
+        <item>cherry tomato</item>
+        <item>chestnut</item>
+        <item>chevre</item>
+        <item>chicken</item>
+        <item>chicken breast</item>
+        <item>chicken curry</item>
+        <item>chicken leg</item>
+        <item>chicken quesadilla</item>
+        <item>chicken wings</item>
+        <item>chickpeas</item>
+        <item>chickweed</item>
+        <item>chicory</item>
+        <item>chili</item>
+        <item>chili pepper</item>
+        <item>chili powder</item>
+        <item>chili sauce</item>
+        <item>chinese artichoke</item>
+        <item>chips</item>
+        <item>chives</item>
+        <item>chocolate</item>
+        <item>chocolate bar</item>
+        <item>chocolate cake</item>
+        <item>chocolate candy</item>
+        <item>chocolate chip cake</item>
+        <item>chocolate cookie</item>
+        <item>chocolate cupcake</item>
+        <item>chocolate ice cream</item>
+        <item>chocolate mousse</item>
+        <item>chorizo</item>
+        <item>chowder</item>
+        <item>churros</item>
+        <item>chutney</item>
+        <item>ciabatta</item>
+        <item>cider</item>
+        <item>cilantro</item>
+        <item>cinnamon</item>
+        <item>cinnamon roll</item>
+        <item>citron</item>
+        <item>citrus</item>
+        <item>clam</item>
+        <item>clam chowder</item>
+        <item>clementine</item>
+        <item>cloudberry</item>
+        <item>cloves</item>
+        <item>cobbler</item>
+        <item>cockle</item>
+        <item>cocktail</item>
+        <item>cocoa</item>
+        <item>coconut</item>
+        <item>coffee</item>
+        <item>cognac</item>
+        <item>coke</item>
+        <item>cole slaw</item>
+        <item>coleslaw</item>
+        <item>collards</item>
+        <item>collation</item>
+        <item>comestible</item>
+        <item>common bean</item>
+        <item>common purslane</item>
+        <item>compote</item>
+        <item>condiment</item>
+        <item>cooked meat</item>
+        <item>cookie</item>
+        <item>coriander</item>
+        <item>corn</item>
+        <item>corn bread</item>
+        <item>corn salad</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+        <item>Pizza</item>
+
+
+    </string-array>
+
+
+</resources>

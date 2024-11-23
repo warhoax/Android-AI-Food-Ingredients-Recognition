@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.clarifai:clarifai-grpc:7.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.clarifai/clarifai-grpc/7.4.0/2024e2c6e4393ffcd1acaab92f004b331d737d68/clarifai-grpc-7.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.clarifai/clarifai-grpc/7.4.0/be4469d4eab073f90e3245552fe3b99cc2fd454d/clarifai-grpc-7.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.clarifai/clarifai-grpc/7.4.0/55c9fc41c27d8cdc32eb511abc1795f759893821/clarifai-grpc-7.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
