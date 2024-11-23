@@ -39,9 +39,13 @@
 
 2. Open the project in Android Studio.
 3. Configure the Clarifai API Key:
-    Navigate to app/src/main/res/values/strings.xml.
-    Add your Clarifai API key in the placeholder:
-<string name="clarifai_api_key">YOUR_API_KEY</string>
+   - Navigate to `app/src/main/res/values/strings.xml`.
+   - Add your Clarifai API key in the placeholder:
+     ```xml
+     <string name="clarifai_api_key">YOUR_API_KEY</string>
+     ```
+
+
 4. Sync the Gradle files.
 5. Run the project on an emulator or physical device.
 
