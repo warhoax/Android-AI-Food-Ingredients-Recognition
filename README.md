@@ -50,7 +50,7 @@
 5. Run the project on an emulator or physical device.
 
 ## 📚 Project Overview
-This project was developed as part of a **Final Year Project (FYP)** for a Bachelor's in Computer Science at the **National University of Modern Languages, Islamabad (NUML)** in 2021. The application addresses the challenge of identifying allergenic ingredients in food, offering a practical solution for individuals with dietary restrictions.
+This project was developed as part of a **Final Year Project (FYP)** for a Bachelor's in 2021. The application addresses the challenge of identifying allergenic ingredients in food, offering a practical solution for individuals with dietary restrictions.
 
 ### Key Modules
 1. **Image Upload Module**: Upload an image from your phone for analysis.
