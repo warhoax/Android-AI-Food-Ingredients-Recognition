@@ -74,7 +74,9 @@ This project was developed as part of a **Final Year Project (FYP)** for a Bache
 ---
 
 ## 📜 License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the **Educational Use License**. It may be used for educational purposes, including learning, teaching, academic research, and personal study. **Commercial use is strictly prohibited.**
+
+See the [LICENSE](LICENSE) file for more details.
 
 ---
 
